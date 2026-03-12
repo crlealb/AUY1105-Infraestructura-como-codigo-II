@@ -1,9 +1,9 @@
 terraform {
   required_version = ">= 1.5.0" # Pon aquí la versión que estés usando
   required_providers {
-    template = {
-      source  = "hashicorp/template"
-      version = "~> 1.0"
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
     }
   }
 }
