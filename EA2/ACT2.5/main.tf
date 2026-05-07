@@ -10,6 +10,7 @@ module "vpc" {
   az_2                  = "us-east-1b"
 }
 
+
 module "ec2" {
   source        = "github.com/crlealb/AUY1105-Infraestructura-como-codigo-II//EA2/ACT2.5/ec2_module?ref=v1.0.0"
   key_name      = var.key_name
